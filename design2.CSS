@@ -1,0 +1,40 @@
+body{
+    background-image: url(bgSunset.png);
+    background-repeat: no repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    
+}
+
+#message{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#h{
+    color: white;
+    font-family: georgia;
+}
+
+#divP{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.55);
+    text-align: center;
+    margin-right: 40px;
+    margin-left: 40px;
+    margin-bottom: 30px;
+    padding: 20px;
+    border-style: double;
+    border-width: 5px;
+    border-color: #FFB600;
+    color: white;
+    font-family: georgia;
+    
+    
+}
+
+

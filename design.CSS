@@ -1,0 +1,91 @@
+body{
+    background-image: url(bgPic.jpg);
+    background-repeat: no repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+}
+
+    
+#inputCon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transform: translateY(150px);
+    
+}
+
+#input{
+    font-size: 20px;
+    border-radius: 20px;
+    padding: 10px;
+    text-align: center;
+    background-color: rgba(11, 17, 50, 0.55);
+    color: white;
+    font-family: georgia,sans-serif;
+}
+   
+#input:hover{
+    background-color: rgba(255, 182, 0, 0.55);
+    color: white;
+   
+    
+} 
+   
+
+
+#btnCon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transform: translateY(160px);
+    
+}
+
+#btn{
+    font-size: 20px;
+    padding: 10px;
+    border-radius: 20px;
+    text-align: center;
+    color: grey;
+    background-color: rgba(11, 17, 50, 0.55);
+    font-family: georgia,sans-serif;
+}
+
+#btn:active {
+    background-color: rgba(255, 182, 0, 0.55);
+    color: white;
+    
+}
+   
+
+
+#title{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-family: sans-serif;
+    transform: translateY(50px);
+    font-family: palatino, sans-serif;
+           
+}
+
+#mssg{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transform: translateY(140px);
+    color: tomato;
+    font-family: palatino;
+}
+
+input::placeholder{
+    color: grey;
+    font-family: georgia;
+}
+
+input:hover::placeholder{
+    color: black;
+}
+

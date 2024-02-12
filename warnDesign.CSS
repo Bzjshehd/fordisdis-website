@@ -1,0 +1,77 @@
+body{
+    background-image: url(bgDagat.jpg);
+    background-repeat: no repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+}
+#divWarn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transform: translateY(50px);
+}
+
+#warn{
+    color: tomato;
+    font-family: palatino;
+    
+    
+}
+
+#msg1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transform: translateY(50px);
+    font-size: 20px;
+    font-family: georgia;
+    
+}
+
+#msg2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transform: translateY(55px);
+    font-size: 20px;
+    font-family: georgia;
+}
+
+#divBtns{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transform: translateY(80px);
+    
+}
+
+#btnOo{
+    font-size: 20px;
+    border-radius: 20px;
+    padding: 5px;
+    width: 70px;
+    margin-right: 20px;
+    background-color: rgba(102, 168, 184, 0.55);
+    color: rgba(50, 73, 111, 1);
+    font-family: georgia;
+}
+
+#btnOo:active{
+    color: white;
+    background-color: rgba(238, 176, 127, 0.55);
+}
+#btnDire{
+    font-size: 20px;
+    border-radius: 20px;
+    padding: 5px;
+    width: 70px;
+    margin-left: 20px;
+    background-color: rgba(102, 168, 184, 0.55);
+    color: rgba(0, 96, 3, 1);
+    font-family: georgia;
+}
+
+#btnDire:active{
+    color: white;
+    background-color: rgba(238, 176, 127, 0.55);
